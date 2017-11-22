@@ -1,0 +1,66 @@
+.linhaBotoes .btn, .widget-box .row .btn{ margin-top: 10px;}
+
+
+.itemdiv.dialogdiv:before{background:none; border: none;}
+.itemdiv.dialogdiv:before{background:none;}
+.dialogdiv .body{ margin: 0;}
+
+
+.filtroHistorico{display: block; margin-bottom: 12px;}
+.filtroHistorico label{ margin-top: 5px;}
+
+.filtroHistorico .iconSearch{ font-size: 20px; cursor: pointer; font-weight: bold; padding: 5px; color: #ccc;}
+.filtroHistorico .iconSearch:hover{ border: 1px solid #ccc; color: orange;}
+
+.iconeEmptyHistory, .piconeEmptyHistory{  display: block; text-align: center; font-size: 30px; margin: 50px  auto; color: #aaa;}
+
+.hide{ display: none; }
+
+/*PAGINA DE ATENDIMENTO*/
+#atendimento .no-margin{text-align: left;margin: 0; padding: 0;}
+/*#atendimento tbody .listagemClientes{cursor: pointer;}*/
+#atendimento tbody tr{ cursor: pointer; font-weight: bold; font-size: 16px; }
+#atendimento tbody tr:hover{  color: orange;}
+#atendimento .changeStatus{cursor: pointer;}
+#atendimento .changeStatus:hover{ color: orange;}
+
+#atendimento .agendarAtendimento{cursor: pointer;}
+#atendimento .agendarAtendimento:hover{ color: orange; }
+
+#atendimento .destaqueHistorico{ background: #CDF0FF; }
+
+
+
+/*#atribuicoes .main-content-inner .page-content .row .col-xs-12 .form-horizontal .camposSelectPrincipal .col-sm-5 select#clientesUsuario option:active{ background: none!important; }*/
+#atribuicoes .camposSelectPrincipal .botaoAtribuicoesColumn{ height: 43px; }
+/*#atribuicoes .masterSelect option.selected{background: none;}*/
+#atribuicoes .masterSelect .selected{ background: #48A1D4!important; color: #fff;}
+
+/*select.form-control */
+/*#cadastroCliente .form-group{ margin-bottom: 20px; display: block; height: 47px; }*/
+
+.listaIstantSearch{ position: absolute;top: 33px; border: 1px solid #ccc; z-index: 9999; opacity: 0.5; background: #ccc; }
+.listaIstantSearch p{ display: block; width: 100%; padding: 3px;    color: #000;
+    font-weight: bold;
+    border-bottom: 1px dashed #555;}
+
+
+/* RELATORIOS */
+
+.bairroSearch p:hover, .cidadeSearch p:hover, .imobiliariaSearch p:hover, .vendedorSearch p:hover{ background: #48A1D4; color: #fff; cursor: pointer;}
+
+
+.fa-sort-amount-asc:hover{color: orange; cursor: pointer;}
+.geralVendedores{}
+
+
+.resumoHistoricoCli .fa-plus-circle{font-size: 15px; cursor: pointer;}
+.resumoHistoricoCli .fa-plus-circle:hover{color:#48A1D4;}
+.resumoHistoricoCli .listagemClientes{display:block; z-index:9999; width:400px; height:400px; overflow-y:scroll; position:absolute; top: 0; background: #fff; left:200px;  border: 1px solid #aaa; box-shadow: 0px 0px 10px 4px #ccc; margin-top: -120px;}
+.resumoHistoricoCli .listagemClientes option{    display: block;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #ccc; }
+.resumoHistoricoCli .listagemClientes option:hover{ color: #48A1D4; font-weight: bold; cursor: pointer; }
+
+.ui-row-ltr{ cursor: pointer;}
